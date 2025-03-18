@@ -2,8 +2,8 @@ from inherit import Employee
 from inherit import Manager
 
 def main():
-    first = Employee('Иван Иванович', 'Менеджер', 2,  50000, 24)
-    second = Manager('Иван Иванович', 'Менеджер', 2 , 50000, 24,'Отдел продаж', 50)
+    first = Employee('Иван Иванович', 'Менеджер', 2,  50000)
+    second = Manager('Иван Иванович', 'Менеджер', 2 , 50000,'Отдел продаж', 50)
     first.info1()
     first.calc_salary1()
     second.info2()
